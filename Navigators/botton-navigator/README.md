@@ -1,11 +1,11 @@
-# Sample Snack app
+# Bottom Tab Navigator
 
-Open the `App.js` file to start writing some code. You can preview the changes directly on your phone or tablet by scanning the **QR code** or use the iOS or Android emulators. When you're done, click **Save** and share the link!
+A simple tab bar on the bottom of the screen that lets you switch between different routes. Routes are lazily initialized -- their screen components are not mounted until they are first focused.
 
-When you're ready to see everything that Expo provides (or if you want to use your own editor) you can **Download** your project and use it with [expo-cli](https://docs.expo.io/get-started/installation).
+Reference: https://reactnavigation.org/docs/bottom-tab-navigator/
 
-All projects created in Snack are publicly available, so you can easily share the link to this project via link, or embed it on a web page with the `<>` button.
+Screenshits:
 
-If you're having problems, you can tweet to us [@expo](https://twitter.com/expo) or ask in our [forums](https://forums.expo.io/c/snack).
+![1](https://user-images.githubusercontent.com/17800800/154974193-42cccf67-8d00-40a8-b927-5ea9bb173bba.png)
 
-Snack is Open Source. You can find the code on the [GitHub repo](https://github.com/expo/snack).
+![2](https://user-images.githubusercontent.com/17800800/154974203-8adf222e-95fa-4c72-91f6-d12ff9b3d51f.png)
