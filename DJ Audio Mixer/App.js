@@ -5,22 +5,22 @@ const sound = new Audio.Sound();
 export default class App extends Component {
    startSound1 = async () => {
     await sound.unloadAsync();
-    await sound.loadAsync(require('./cute.mp3'));
+    await sound.loadAsync(require('./assets/cute.mp3'));
     await sound.playAsync();
   }
   startSound2 = async () => {
     await sound.unloadAsync();
-    await sound.loadAsync(require('./hipjazz.mp3'));
+    await sound.loadAsync(require('./assets/hipjazz.mp3'));
     await sound.playAsync();
   }
   startSound3 = async () => {
     await sound.unloadAsync();
-    await sound.loadAsync(require('./onceagain.mp3'));
+    await sound.loadAsync(require('./assets/onceagain.mp3'));
     await sound.playAsync();
   }
   startSound4 = async () => {
     await sound.unloadAsync();
-    await sound.loadAsync(require('./pianomoment.mp3'));
+    await sound.loadAsync(require('./assets/pianomoment.mp3'));
     await sound.playAsync();
   }
   stopSound = async () => {
