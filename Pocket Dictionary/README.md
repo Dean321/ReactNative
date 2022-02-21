@@ -10,6 +10,4 @@ The documentation for the API is given in the link.
 
 Screenshot:
 
-
-![1](https://user-images.githubusercontent.com/17800800/154977452-50174911-c3c6-4e8d-abff-d65e7d49427f.png)
-
+![1](https://user-images.githubusercontent.com/17800800/154977584-e4a339a1-e14f-4d62-8803-d433c9f8b9cb.png)
