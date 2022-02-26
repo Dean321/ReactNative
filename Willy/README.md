@@ -1,11 +1,24 @@
-# Sample Snack app
+# WILLY - WIreLess LibrarY
 
-Open the `App.js` file to start writing some code. You can preview the changes directly on your phone or tablet by scanning the **QR code** or use the iOS or Android emulators. When you're done, click **Save** and share the link!
+An electronic Librarian to make all responsible decisions a librarian would would normally make. 
 
-When you're ready to see everything that Expo provides (or if you want to use your own editor) you can **Download** your project and use it with [expo-cli](https://docs.expo.io/get-started/installation).
+Screenshots:
 
-All projects created in Snack are publicly available, so you can easily share the link to this project via link, or embed it on a web page with the `<>` button.
+### Login Page
+![1](https://user-images.githubusercontent.com/17800800/155835245-525f187c-7f2d-4304-9033-5022821ff854.png)
 
-If you're having problems, you can tweet to us [@expo](https://twitter.com/expo) or ask in our [forums](https://forums.expo.io/c/snack).
+### Transactions Page
+Aditional Feature:
+  - Scan button to scan Barcodes(QR code examples find in repository)
+  - Option to type instead of scan
+  - Auto-clear for both feilds
+  
 
-Snack is Open Source. You can find the code on the [GitHub repo](https://github.com/expo/snack).
+![2](https://user-images.githubusercontent.com/17800800/155835249-a0a8aebd-a7d1-4853-8b4c-deb63c7933ed.png)
+
+### Search Page
+Additional Feature:
+  - Search Option to filter records
+  - By default to display all transactions
+  
+![3](https://user-images.githubusercontent.com/17800800/155835251-50f5dae2-2209-4f43-9032-05b98c952c38.png)
