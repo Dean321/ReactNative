@@ -13,7 +13,7 @@ import {
   Linking,
 } from 'react-native';
 import axios from 'axios';
-
+const YOUR_API_KEY = ""; //Put your API key here
 export default class DailyPicScreen extends Component {
   constructor(props) {
     super(props);
@@ -29,7 +29,7 @@ export default class DailyPicScreen extends Component {
   getMeteors = () => {
     axios
       .get(
-        'https://api.nasa.gov/planetary/apod?api_key=zi8Zpap2dlbDdtgn8iTD0L8eaUPLGXdh9d5u73Ot'
+        'https://api.nasa.gov/planetary/apod?api_key='+YOUR_API_KEY
       )
       .then((response) => {
         this.setState({ apod: response.data });
