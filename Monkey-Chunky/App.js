@@ -126,8 +126,10 @@ const styles = StyleSheet.create({
 });
 
 /**
+Colors Used are:
  * white => #F8F5F1
  * orange => #F8A488
  * teal => #5AA897
  * blue => #45526C
  */
+
