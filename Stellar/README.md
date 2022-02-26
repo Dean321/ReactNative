@@ -1,11 +1,27 @@
-# Sample Snack app
+# Stellar
 
-Open the `App.js` file to start writing some code. You can preview the changes directly on your phone or tablet by scanning the **QR code** or use the iOS or Android emulators. When you're done, click **Save** and share the link!
+Our app shows:
+  - Info on Spacecrafts
+  - StarMap
+  - NASA Daily Pic
 
-When you're ready to see everything that Expo provides (or if you want to use your own editor) you can **Download** your project and use it with [expo-cli](https://docs.expo.io/get-started/installation).
+References:
+  - Starmap link: https://virtualsky.lco.global/embed/index.html?longitude=77.102493&latitude=28.704060&constellations=true&constellationlabels=true&showstarlabels=true&gridlines_az=true&live=true
 
-All projects created in Snack are publicly available, so you can easily share the link to this project via link, or embed it on a web page with the `<>` button.
+Screenshots:
 
-If you're having problems, you can tweet to us [@expo](https://twitter.com/expo) or ask in our [forums](https://forums.expo.io/c/snack).
+Home Screen:
 
-Snack is Open Source. You can find the code on the [GitHub repo](https://github.com/expo/snack).
+![1](https://user-images.githubusercontent.com/17800800/155842990-18edb572-4304-477d-b73c-7bbeb0d3ca44.png)
+
+Spacecraft Screen:
+
+![2](https://user-images.githubusercontent.com/17800800/155842992-041d8e67-6409-4365-8975-eaf8264b37e2.png)
+
+Starmap Screen:
+
+![3](https://user-images.githubusercontent.com/17800800/155842994-2f18a7d0-3602-4824-aa35-3687a55810ac.png)
+
+Daily Pic Screen:
+
+![4](https://user-images.githubusercontent.com/17800800/155842996-7ba884a6-eb22-4397-81da-acca67090ecf.png)
