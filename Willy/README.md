@@ -2,6 +2,8 @@
 
 An electronic Librarian to make all responsible decisions a librarian would would normally make. 
 
+Note: Both FlatView and ScrollView implemented find code in repository.
+
 Screenshots:
 
 ### Login Page
