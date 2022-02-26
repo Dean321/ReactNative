@@ -13,7 +13,7 @@ import {
   Dimensions,
 } from 'react-native';
 import axios from 'axios';
-
+const YOUR_AP_KEY = ""; //Put your API Key here
 export default class MeteorScreen extends Component {
   constructor(props) {
     super(props);
@@ -29,7 +29,7 @@ export default class MeteorScreen extends Component {
   getMeteors = () => {
     axios
       .get(
-        'https://api.nasa.gov/neo/rest/v1/feed?api_key=nAkq24DJ2dHxzqXyzfdreTvczCVOnwJuFLFq4bDZ'
+        'https://api.nasa.gov/neo/rest/v1/feed?api_key='+YOUR_API_KEY
       )
       .then((response) => {
         this.setState({ meteors: response.data.near_earth_objects });
