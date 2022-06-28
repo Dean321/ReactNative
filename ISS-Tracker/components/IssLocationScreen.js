@@ -20,7 +20,14 @@ export default class IssLocationScreen extends React.Component {
   }
 
   componentDidMount() {
-    this.getIssLocation();
+    this.Timer = setInterval(() => {
+      this.getIssLocation();
+    }, 1000);
+  }
+
+
+  componentWillMount() {
+    clearInterval(this.Timer);
   }
 
   getIssLocation = () => {
