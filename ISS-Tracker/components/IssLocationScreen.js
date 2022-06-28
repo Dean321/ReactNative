@@ -60,7 +60,7 @@ export default class IssLocationScreen extends React.Component {
                     latitudeDelta: 100,
                     longitudeDelta: 100,
                   }}
-                />
+                >
                 <Marker
                   coordinate={{
                     latitude: this.state.location.latitude,
@@ -71,6 +71,7 @@ export default class IssLocationScreen extends React.Component {
                     style={{ height: 15, width: 15 }}
                   />
                 </Marker>
+              </MapView>
               </View>
               <View style={{backgroundColor:"#24A19C", margin:20, borderRadius:25, padding:20, flexDirection:"column", flex:0.3,opacity:0.8}}>
                 <View style={{flexDirection:"row", flexWrap:"wrap"}}>
