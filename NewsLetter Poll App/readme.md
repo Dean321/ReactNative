@@ -1,1 +1,0 @@
-# NewsLetter Poll App
