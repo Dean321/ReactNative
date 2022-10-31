@@ -33,9 +33,7 @@ export default class HomeScreen extends Component {
   componentWillMount() {
     clearInterval(this.Update);
   }
-  goToBuzzerScreen = (screen) => {
-    this.props.navigation.navigate(screen);
-  };
+
   updateLike() {
     var likes;
     db.ref('poll/like').on('value', (d) => {
