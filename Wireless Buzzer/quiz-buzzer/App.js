@@ -25,7 +25,7 @@ const AppContainer = createAppContainer(AppNavigator)
 
 const styles = StyleSheet.create({
   view: {
-    backgroundColor: 'turquoise',
+    backgroundColor: '#F5E9CF',
     height: 450,
     flex: 1,
   }
