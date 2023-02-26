@@ -61,8 +61,12 @@ export default class App extends Component {
         <View style={{marginTop:100}}>
         <Text style={styles.btnTxt}>PLAYERS PLAY </Text>
             {this.state.teamsRank.map(item => {
+              if (item[0] == 'orange') color = '#F2CD5C';
+    else if (item[0] == 'red') color = '#E96479';
+    else if (item[0] == 'green') color = '#7DB9B6';
+    else color = 'lightblue';
               return <View style = {styles.textView}>
-                        <Text style={[styles.text,{backgroundColor:item[0] }]}>
+                        <Text style={[styles.text,{backgroundColor:color }]}>
                           {item[0].toUpperCase()}
                         </Text>
                       </View>;
@@ -80,12 +84,14 @@ export default class App extends Component {
 
 const styles = StyleSheet.create({
   view: {
-   backgroundColor:"pink",
+   backgroundColor:"#F5E9CF",
     height: 350,
     flex: 1,
-    marginLeft:10,
-    marginTop:10,
-    width:300
+    // marginLeft:10,
+    // marginTop:10,
+    // width:300
+    alignItems:"center",
+    // justifyContent:"center"
   },
   text:{
     fontSize:20,
@@ -99,20 +105,23 @@ const styles = StyleSheet.create({
   },
   textView:{
     alignItems:"center",
-    backgroundColor:"pink",
+    backgroundColor:"#F5E9CF",
     width:300
   },
   btn:{
     width: 100,
     height: 30,
     marginTop:20,
-    backgroundColor:"yellow",
+    backgroundColor:"#F94A29",
     borderRadius:30,
-    marginLeft:100
+    alignSelf:"center",
+    color:"#FCE000"
+
+    // marginLeft:100
   },
   btnTxt:{
     textAlign:"center",
     fontSize:22,
-    fontWeight:"bold"
+    fontWeight:"bold",
   }
 });
