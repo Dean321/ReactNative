@@ -1,11 +1,8 @@
-# Sample Snack app
+# Quizz Buzzer
 
-Open the `App.js` file to start writing some code. You can preview the changes directly on your phone or tablet by scanning the **QR code** or use the iOS or Android emulators. When you're done, click **Save** and share the link!
+A 4-player Buzzer for games like quizzes. Designed to track the sequence of the buzzes and report to the Master App. Master is only able to reset the buzzer.
 
-When you're ready to see everything that Expo provides (or if you want to use your own editor) you can **Download** your project and use it with [expo-cli](https://docs.expo.io/get-started/installation).
+![image](https://user-images.githubusercontent.com/17800800/221398786-4984d453-ddd9-4e6c-9daa-22ea1f3b7fac.png)
 
-All projects created in Snack are publicly available, so you can easily share the link to this project via link, or embed it on a web page with the `<>` button.
+![image](https://user-images.githubusercontent.com/17800800/221398813-80f7503c-ab6b-48ee-a983-6ad24931be08.png)
 
-If you're having problems, you can tweet to us [@expo](https://twitter.com/expo) or ask in our [forums](https://forums.expo.io/c/snack).
-
-Snack is Open Source. You can find the code on the [GitHub repo](https://github.com/expo/snack).
