@@ -6,12 +6,10 @@ import SoundButton from "../components/SoundButton";
 export default class HomeScreen extends Component{
   render(){
     return(
-      <View>
+      <View style={{flex:1}}>
         <AppHeader />
         <SoundButton color={this.props.navigation.getParam('color')}/>
       </View>
     )
   }
 }
-
-
