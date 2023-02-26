@@ -28,22 +28,22 @@ export default class HomeScreen extends Component {
   }
   render() {
     return (
-      <View>
+      <View >
         <AppHeader />
         <TouchableOpacity
-          style={[styles.button, { backgroundColor: 'green' }]}
+          style={[styles.button, { backgroundColor: '#7DB9B6' }]}
           onPress={() => this.goToBuzzerScreen('green')} disabled={this.state.greenStatus}>
           <Text style={styles.buttonText}>Team 1</Text>
         </TouchableOpacity>
 
         <TouchableOpacity
-          style={[styles.button, { backgroundColor: 'red' }]}
+          style={[styles.button, { backgroundColor: '#E96479' }]}
           onPress={() => this.goToBuzzerScreen('red')} disabled={this.state.redStatus}>
           <Text style={styles.buttonText}>Team 2</Text>
         </TouchableOpacity>
 
         <TouchableOpacity
-          style={[styles.button, { backgroundColor: 'orange' }]}
+          style={[styles.button, { backgroundColor: '#F2CD5C' }]}
           onPress={() => this.goToBuzzerScreen('orange')} disabled={this.state.orangeStatus}>
           <Text style={styles.buttonText}>Team 3</Text>
         </TouchableOpacity>
@@ -62,7 +62,7 @@ const styles = StyleSheet.create({
   button: {
     justifyContent: 'center',
     alignSelf: 'center',
-    borderWidth: 2,
+    borderWidth: 1,
     borderRadius: 15,
     marginTop: 30,
     width: 200,
