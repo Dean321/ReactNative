@@ -30,14 +30,19 @@ export default class LoginScreen extends Component {
       if (data[i].gmail == this.state.email) {
         flag = true;
         if (Base64.decode(data[i].password) == this.state.password) {
-          this.props.navigation.navigate('MainPage',{theme:data[i].current_theme});
+          this.props.navigation.navigate('MainPage', {
+            theme: data[i].current_theme,
+            pimg: data[i].profile_picture,
+            fn: data[i].first_name,
+            ln: data[i].last_name
+          });
         } else {
           alert('incorrect password');
         }
       }
     }
-    if(!flag){
-      alert ("record doesn't exist")
+    if (!flag) {
+      alert("record doesn't exist");
     }
   };
   componentDidMount() {
